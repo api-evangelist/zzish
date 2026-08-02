@@ -1,7 +1,28 @@
 aid: zzish
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zzish.png
 name: Zzish
-description: Zzish is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Zzish is an EdTech company (a Techstars-backed startup) building a K-12 learning
+  product suite used by teachers and students across 180 countries. Its flagship
+  product, Quizalize, is a classroom quiz and formative-assessment platform; the
+  portfolio also includes Blockerzz (a 3D game engine with quiz games and coding
+  tutorials), Marvely.ai (AI-powered, exam-aligned language tutoring), Quizalize
+  Insights (leadership dashboards for tracking academic progress), and QUAT (a
+  customer-analytics platform for schools and EdTech partners). Zzish reports
+  250k+ teachers onboarded in the last two years and 250m+ questions answered
+  since launch. As of this enrichment pass, Zzish publishes no public developer
+  API, OpenAPI, or developer-documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/zzish/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Education
+- EdTech
+- K-12
+- Assessment
+- Quizzes
+- Learning
+- AI Tutoring
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,20 @@ maintainers:
 common:
 - type: Website
   url: https://zzish.com/
+- type: Blog
+  url: https://blog.quizalize.com/
+- type: SignUp
+  url: https://app.quizalize.com/signup
+- type: Login
+  url: https://app.quizalize.com/login
+- type: TermsOfService
+  url: https://www.quizalize.com/terms-of-service?lang=en-US
+- type: PrivacyPolicy
+  url: https://www.quizalize.com/privacy-policy?lang=en-US
+- type: DomainSecurity
+  url: security/zzish-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
